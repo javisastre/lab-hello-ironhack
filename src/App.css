@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2 rem;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Top {
+  background-color: #232a38;
+  color: white;
+  padding: 30px;
+  width: 97%;
+  height: 50vh;
+}
+
+.Top nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Top h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.Top a {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #232a38;
+}
+
+.Bottom {
+  display: flex;
+}
+
+.Bottom h2 {
+  font-weight: 700;
+}
+
+.Bottom article {
+  width: 300px;
+}
